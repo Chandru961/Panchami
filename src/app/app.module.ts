@@ -10,6 +10,9 @@ import { ThingsToDoComponent } from './things-to-do/things-to-do.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { FooterComponent } from './footer/footer.component';
+import { LuxuryComponent } from './luxury/luxury.component';
+import { DeluxeComponent } from './deluxe/deluxe.component';
+import { StandardComponent } from './standard/standard.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +25,9 @@ import { FooterComponent } from './footer/footer.component';
     GalleryComponent,
     ContactUsComponent,
     FooterComponent,
+    LuxuryComponent,
+    DeluxeComponent,
+    StandardComponent,
 
   ],
   imports: [
