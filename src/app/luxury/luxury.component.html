@@ -1,1 +1,79 @@
-<p>luxury works!</p>
+<app-nav></app-nav>
+
+<h1 class="mt-52 text-center text-3xl">Luxury Rooms</h1>
+
+<!-- Room details -->
+<div class="container grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
+    <img src="../../assets/PHOTOS 01.png">
+    <img src="../../assets/PHOTOS 02.png">
+    <img src="../../assets/PHOTOS 03.jpg">
+</div>
+<h1 class="text-center text-2xl mt-3">Amenities</h1>
+<div class="container grid lg:grid-cols-2 sm:grid-cols-1 mt-10 text-center text-2xl font-mono">
+    <ul>
+        <li>Air-conditioning</li>
+        <li>Wi-Fi Internet Access</li>
+        <li>Complimentary Breakfast</li>
+        <li>Electric Kettle</li>
+        <li>Locker/Private Safe</li>
+        <li>Hot Water</li>
+        <li>Television (32" LED TV)</li>
+    </ul>
+    <ul>
+        <li>Mineral Water Bottle</li>
+        <li>Laundry Service</li>
+        <li>Housekeeping</li>
+        <li>Work Desk & Chair</li>
+        <li>Sofa</li>
+        <li>Coffee table</li>
+        <li>Wardrobe</li>
+    </ul>
+</div>
+<div class="text-center">
+    <button type="button"
+        class="text-white mt-10 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Book
+        Now</button>
+</div>
+
+<h1 class="text-center text-2xl">CheckOut Ours Other Rooms</h1>
+<div class="container grid  sm:grid-cols-1 lg:grid-cols-2 text-center mt-5 gap-2 mx-auto">
+    <div class=" bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+        <img class="rounded-t-lg" src="../../assets/PHOTOS 01.png" alt="" />
+        <div class="p-5">
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Deluxe
+                Room</h5>
+                <p>The Deluxe Rooms, featuring a king size bed and resplendent city or garden views, are perfect for couples
+                    as well as solo travellers. Avail of a range of complimentary facilities and services at these 220 sq.
+                    ft. rooms in Mylasandra.</p>
+            <button routerLink="/deluxe"
+                class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                Book Now
+                <svg class="w-3.5 h-3.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                    viewBox="0 0 14 10">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M1 5h12m0 0L9 1m4 4L9 9" />
+                </svg>
+            </button>
+        </div>
+    </div>
+    <div class=" bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+        <img class="rounded-t-lg" src="../../assets/PHOTOS 04.png" alt="" />
+        <div class="p-5">
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Standard
+                Room</h5>
+                <p>The Standard Rooms are cosy spaces with modern amenities ideal for business and corporate executives.
+                    These 140 sq. ft. rooms in Bangalore feature fine furniture and decor with delightful city views.</p>
+            <button a routerLink="/standard"
+                class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                Book Now
+                <svg class="w-3.5 h-3.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                    viewBox="0 0 14 10">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M1 5h12m0 0L9 1m4 4L9 9" />
+                </svg>
+            </button>
+        </div>
+    </div>
+</div>
+
+<app-footer></app-footer>
