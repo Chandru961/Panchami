@@ -3,7 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { RoomsComponent } from './rooms/rooms.component';
 import { FacilitesComponent } from './facilites/facilites.component';
-import { ThingsToDoComponent } from './things-to-do/things-to-do.component';
+
 import { GalleryComponent } from './gallery/gallery.component'; 
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { LuxuryComponent } from './luxury/luxury.component';
@@ -16,7 +16,7 @@ const routes: Routes = [
   {path:'home', component:HomeComponent},
   {path:'rooms' , component:RoomsComponent},
   {path:'facilities' , component:FacilitesComponent},
-  {path:'things-to-do' , component:ThingsToDoComponent},
+
   {path:'gallery' , component:GalleryComponent},
   {path:'contact-us' , component:ContactUsComponent},
   {path:'luxury' , component:LuxuryComponent},
