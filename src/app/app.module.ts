@@ -13,6 +13,7 @@ import { LuxuryComponent } from './luxury/luxury.component';
 import { DeluxeComponent } from './deluxe/deluxe.component';
 import { StandardComponent } from './standard/standard.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
