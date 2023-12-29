@@ -14,17 +14,11 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  TestBed.configureTestingModule({
-    declarations: [AppComponent], // Add other components if necessary
-    imports: [/* Add required modules here */],
-  }).compileComponents();
-
   it(`should have as title 'Panchami'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app['title']).toEqual('Panchami');
+    expect(app.title).toEqual('Panchami');
   });
-  
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
