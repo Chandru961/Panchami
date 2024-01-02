@@ -1,4 +1,7 @@
 import { Component } from '@angular/core';
+import { Routes } from '@angular/router';
+
+
 
 
 @Component({
@@ -11,3 +14,5 @@ export class HomeComponent {
   title = 'Home';
 
 }
+
+export const routes: Routes = [];

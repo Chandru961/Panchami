@@ -23,11 +23,13 @@ import { StandardComponent } from './standard/standard.component';
     LuxuryComponent,
     DeluxeComponent,
     StandardComponent,
+    
 
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]
